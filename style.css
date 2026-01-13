@@ -1,0 +1,123 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("images/motocross-bg.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: #000000e3;
+}
+
+/* НАВИГАЦИЯ */
+nav {
+    background-color: rgba(136, 131, 131, 0.938);
+    text-align: center;
+    padding: 15px;
+}
+.hero {
+    height: 100vh; /* заема цялата височина на екрана */
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfXnGD4me0nGoXarR-zYZRyoNh-lj06xX39A");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero {
+    min-height: 100vh;
+    background-image: url("https://media.posterlounge.com/img/products/610000/608461/608461_poster.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    box-shadow: inset 0 -60px 80px rgba(0, 0, 0, 0.8);
+}
+
+.hero-content {
+    background-color: rgba(0, 0, 0, 0.65);
+    padding: 40px 50px;
+    text-align: center;
+    border-radius: 14px;
+
+    box-shadow:
+        0 15px 30px rgba(0, 0, 0, 0.9),
+        0 0 25px rgba(0, 0, 0, 0.6);
+}
+
+.hero h1 {
+    font-size: 42px;
+    color: #d60000;
+    margin-bottom: 15px;
+}
+nav a {
+    color: #000000;
+    border: 2px solid #c4c3c2;
+}
+
+nav a:hover {
+    background-color: #ff4500;
+    color: #ffffff;
+}
+
+.hero .intro {
+    font-size: 20px;
+    color: #ffffff;
+}
+
+/* HEADER */
+header {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 40px;
+    text-align: center;
+}
+
+.intro {
+    font-size: 18px;
+}
+
+/* MAIN */
+main {
+    background-color: rgba(0, 0, 0, 0.65);
+    width: 80%;
+    margin: 40px auto;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 0 20px #000;
+}
+
+h2 {
+    color: #ffcc00;
+}
+
+ul, ol {
+    margin-left: 30px;
+}
+
+/* ЛИНК */
+.external-link {
+    display: inline-block;
+    margin-top: 15px;
+    color: #ffcc00;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.external-link:hover {
+    text-decoration: underline;
+}
+
+/* ФУТЕР */
+footer {
+    background-color: rgba(0, 0, 0, 0.9);
+    text-align: center;
+    padding: 15px;
+    font-size: 14px;
+}
